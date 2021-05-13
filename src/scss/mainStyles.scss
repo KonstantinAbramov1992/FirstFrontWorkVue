@@ -1,0 +1,26 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #eeeeee;
+}
+
+.roteteBack {
+  transform: rotate(-360deg);
+  transition: 1s ease;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
